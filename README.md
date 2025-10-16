@@ -6,13 +6,13 @@ This project provides a complete pipeline for building, training, and evaluating
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 Action recognition is a challenging computer vision task that involves identifying different actions from video clips. This project implements an LRCN model, which combines the spatial feature extraction power of Convolutional Neural Networks (CNNs) with the sequence-modeling capability of Long Short-Term Memory (LSTM) networks. The model is trained to classify a variety of actions, making it a powerful tool for video analysis.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 -   **End-to-End Implementation**: From data collection to prediction, the entire workflow is contained within the `Action_Recognition_Sports.ipynb` notebook.
 -   **LRCN Architecture**: Implements the LRCN model using `TimeDistributed` CNN layers and `LSTM` layers in Keras for high-accuracy spatio-temporal learning.
@@ -22,7 +22,7 @@ Action recognition is a challenging computer vision task that involves identifyi
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The model (`LRCN_model`) is built using the Keras Sequential API. Its architecture consists of two main parts:
 
@@ -32,7 +32,7 @@ The model (`LRCN_model`) is built using the Keras Sequential API. Its architectu
 
 ---
 
-## 🛠️ Technologies & Libraries Used
+##  Technologies & Libraries Used
 
 This project relies on the following Python libraries:
 
@@ -46,11 +46,11 @@ This project relies on the following Python libraries:
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### 1. Setup
 
 **Clone the repository:**
 ```bash
-git clone <your-repository-url>
-cd <repository-directory>
+git clone https://github.com/Anurag-Amchi/Action-Recognition-Sports
+cd Action-Recognition-Sports
